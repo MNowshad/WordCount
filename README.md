@@ -6,6 +6,7 @@ This project is work in progress, will be adding more functionalities
 This program returns the top N words.  If rank is also needed then we can  do a radix sort on the final top N words.
 
 # Performance analysis
+Overall complexity of the program is O(n) time and O(n) space .
 My program is divided into four parts:
   1.	Reading the chunks of data   and adding it to dictionary. 
       Running time complexity: O(n)  
@@ -22,7 +23,6 @@ My program is divided into four parts:
   4.	Looping through the dictionary to find the top 10 elements and adding it to array. 
   	  Running time complexity: O(k)  
   	  Space complexity: O(1) constant as it will be always top ten records size. 
-Summing up overall complexity of the program is O(n) time and O(n) space .
 
 #Large File issue
 The complexity that arrives with large file is that it can exhaust the memory and take a much longer time (worst if the runtime is exponential).
